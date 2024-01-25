@@ -1,0 +1,10 @@
+^D:\SOURCE\SYNC_ASYNC SOCKET\BUILD\CMAKEFILES\CED224E2274E5DED8A162F3381A9D02F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/source/sync_async socket" "-BD:/source/sync_async socket/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/source/sync_async socket/build/winsock_projects.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
