@@ -23,8 +23,8 @@ events:
       
       The output was:
       0
-      msbuild 버전 17.8.3+195e7f5a3(.NET Framework용)
-      빌드 시작: 2024-01-25 오후 5:20:08
+      msbuild 버전 17.8.5+b5265ef37(.NET Framework용)
+      빌드 시작: 2024-02-01 오후 2:37:28
       
       1 노드의 "D:\\source\\sync_async socket\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           경고 0개
           오류 0개
       
-      경과 시간: 00:00:01.05
+      경과 시간: 00:00:00.74
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -78,8 +78,8 @@ events:
       
       The output was:
       0
-      msbuild 버전 17.8.3+195e7f5a3(.NET Framework용)
-      빌드 시작: 2024-01-25 오후 5:20:09
+      msbuild 버전 17.8.5+b5265ef37(.NET Framework용)
+      빌드 시작: 2024-02-01 오후 2:37:29
       
       1 노드의 "D:\\source\\sync_async socket\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트(기본 대상)입니다.
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           경고 0개
           오류 0개
       
-      경과 시간: 00:00:00.72
+      경과 시간: 00:00:00.77
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-my9lyv"
-      binary: "D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-my9lyv"
+      source: "D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-nze2tl"
+      binary: "D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-nze2tl"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-my9lyv'
+        Change Dir: 'D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-nze2tl'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_80c8b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        msbuild 버전 17.8.3+195e7f5a3(.NET Framework용)
-        빌드 시작: 2024-01-25 오후 5:20:10
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_44f5c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        msbuild 버전 17.8.5+b5265ef37(.NET Framework용)
+        빌드 시작: 2024-02-01 오후 2:37:30
         
-        1 노드의 "D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-my9lyv\\cmTC_80c8b.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nze2tl\\cmTC_44f5c.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_80c8b.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_44f5c.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          "D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-my9lyv\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_80c8b.dir\\Debug\\cmTC_80c8b.tlog\\" 디렉터리를 만들고 있습니다.
+          "D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nze2tl\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_44f5c.dir\\Debug\\cmTC_44f5c.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_80c8b.dir\\Debug\\cmTC_80c8b.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_80c8b.dir\\Debug\\cmTC_80c8b.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_44f5c.dir\\Debug\\cmTC_44f5c.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_44f5c.dir\\Debug\\cmTC_44f5c.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80c8b.dir\\Debug\\\\" /Fd"cmTC_80c8b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_44f5c.dir\\Debug\\\\" /Fd"cmTC_44f5c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33134 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80c8b.dir\\Debug\\\\" /Fd"cmTC_80c8b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_44f5c.dir\\Debug\\\\" /Fd"cmTC_44f5c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-my9lyv\\Debug\\cmTC_80c8b.exe" /INCREMENTAL /ILK:"cmTC_80c8b.dir\\Debug\\cmTC_80c8b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-my9lyv/Debug/cmTC_80c8b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-my9lyv/Debug/cmTC_80c8b.lib" /MACHINE:X64  /machine:x64 cmTC_80c8b.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_80c8b.vcxproj -> D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-my9lyv\\Debug\\cmTC_80c8b.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nze2tl\\Debug\\cmTC_44f5c.exe" /INCREMENTAL /ILK:"cmTC_44f5c.dir\\Debug\\cmTC_44f5c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-nze2tl/Debug/cmTC_44f5c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-nze2tl/Debug/cmTC_44f5c.lib" /MACHINE:X64  /machine:x64 cmTC_44f5c.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_44f5c.vcxproj -> D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nze2tl\\Debug\\cmTC_44f5c.exe
         FinalizeBuildStatus:
-          "cmTC_80c8b.dir\\Debug\\cmTC_80c8b.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_80c8b.dir\\Debug\\cmTC_80c8b.tlog\\cmTC_80c8b.lastbuildstate"에 연결(touching)하고 있습니다.
-        "D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-my9lyv\\cmTC_80c8b.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_44f5c.dir\\Debug\\cmTC_44f5c.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_44f5c.dir\\Debug\\cmTC_44f5c.tlog\\cmTC_44f5c.lastbuildstate"에 연결(touching)하고 있습니다.
+        "D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nze2tl\\cmTC_44f5c.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개
             오류 0개
         
-        경과 시간: 00:00:00.73
+        경과 시간: 00:00:00.72
         
       exitCode: 0
   -
@@ -182,8 +182,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-koxbgd"
-      binary: "D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-koxbgd"
+      source: "D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-wszxax"
+      binary: "D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-wszxax"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -192,34 +192,34 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-koxbgd'
+        Change Dir: 'D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-wszxax'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_facfd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        msbuild 버전 17.8.3+195e7f5a3(.NET Framework용)
-        빌드 시작: 2024-01-25 오후 5:20:11
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6d7b3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        msbuild 버전 17.8.5+b5265ef37(.NET Framework용)
+        빌드 시작: 2024-02-01 오후 2:37:31
         
-        1 노드의 "D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-koxbgd\\cmTC_facfd.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wszxax\\cmTC_6d7b3.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_facfd.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_6d7b3.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          "D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-koxbgd\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_facfd.dir\\Debug\\cmTC_facfd.tlog\\" 디렉터리를 만들고 있습니다.
+          "D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wszxax\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_6d7b3.dir\\Debug\\cmTC_6d7b3.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_facfd.dir\\Debug\\cmTC_facfd.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_facfd.dir\\Debug\\cmTC_facfd.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_6d7b3.dir\\Debug\\cmTC_6d7b3.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_6d7b3.dir\\Debug\\cmTC_6d7b3.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_facfd.dir\\Debug\\\\" /Fd"cmTC_facfd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6d7b3.dir\\Debug\\\\" /Fd"cmTC_6d7b3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33134 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_facfd.dir\\Debug\\\\" /Fd"cmTC_facfd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6d7b3.dir\\Debug\\\\" /Fd"cmTC_6d7b3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-koxbgd\\Debug\\cmTC_facfd.exe" /INCREMENTAL /ILK:"cmTC_facfd.dir\\Debug\\cmTC_facfd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-koxbgd/Debug/cmTC_facfd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-koxbgd/Debug/cmTC_facfd.lib" /MACHINE:X64  /machine:x64 cmTC_facfd.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_facfd.vcxproj -> D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-koxbgd\\Debug\\cmTC_facfd.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wszxax\\Debug\\cmTC_6d7b3.exe" /INCREMENTAL /ILK:"cmTC_6d7b3.dir\\Debug\\cmTC_6d7b3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-wszxax/Debug/cmTC_6d7b3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/source/sync_async socket/build/CMakeFiles/CMakeScratch/TryCompile-wszxax/Debug/cmTC_6d7b3.lib" /MACHINE:X64  /machine:x64 cmTC_6d7b3.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_6d7b3.vcxproj -> D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wszxax\\Debug\\cmTC_6d7b3.exe
         FinalizeBuildStatus:
-          "cmTC_facfd.dir\\Debug\\cmTC_facfd.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_facfd.dir\\Debug\\cmTC_facfd.tlog\\cmTC_facfd.lastbuildstate"에 연결(touching)하고 있습니다.
-        "D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-koxbgd\\cmTC_facfd.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_6d7b3.dir\\Debug\\cmTC_6d7b3.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_6d7b3.dir\\Debug\\cmTC_6d7b3.tlog\\cmTC_6d7b3.lastbuildstate"에 연결(touching)하고 있습니다.
+        "D:\\source\\sync_async socket\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wszxax\\cmTC_6d7b3.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개

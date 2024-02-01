@@ -3,6 +3,7 @@
 #include <vector>
 #include <chrono>
 #include <thread>
+#include <mutex>
 #include <conio.h>
 #pragma comment(lib, "ws2_32.lib")
 
@@ -14,7 +15,7 @@ std::chrono::steady_clock::time_point t1;
 bool b = true;
 bool print = false;
 
-void handleClientConnections(SOCKET serverSocket, std::vector<SOCKET>& clientSockets) {
+void handleClientConnections(SOCKET serverSocket, std::vector<SOCKET>& clientSockets, std::mutex& clientMutex) {
     while (true) {
         SOCKET clientSocket = accept(serverSocket, NULL, NULL);
         if (clientSocket == INVALID_SOCKET) {
@@ -27,15 +28,17 @@ void handleClientConnections(SOCKET serverSocket, std::vector<SOCKET>& clientSoc
             b = false;
             t1 = Time::now();
         }
+        std::lock_guard<std::mutex> lock(clientMutex);
         clientSockets.push_back(clientSocket);
     }
 }
 
-void sendDataToClients(const std::vector<SOCKET>& clientSockets) {
+void sendDataToClients(const std::vector<SOCKET>& clientSockets, std::mutex& clientMutex) {
     char buffer[BUFFER_SIZE] = "AAAAAAAAAAAAAAAAAAAAAAAAAAAA";
     int totalbytes = 0;
 
     while (true) {
+        std::lock_guard<std::mutex> lock(clientMutex);
         for (SOCKET clientSocket : clientSockets) {
             int bytesSent = send(clientSocket, buffer, sizeof(buffer), 0);
             totalbytes += bytesSent;
@@ -95,10 +98,10 @@ int main() {
         return 1;
     }
     
-
+    std::mutex clientMutex;
     std::vector<SOCKET> clientSockets;
-    std::thread clientThread(handleClientConnections, serverSocket, std::ref(clientSockets));
-    sendDataToClients(clientSockets);
+    std::thread clientThread(handleClientConnections, serverSocket, std::ref(clientSockets), std::ref(clientMutex));
+    sendDataToClients(clientSockets, clientMutex);
     
     closesocket(serverSocket);
     for (SOCKET clientSocket : clientSockets) {
