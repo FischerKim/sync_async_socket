@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 project(winsock_projects)
+#[===[
 set(Boost_INCLUDE_DIR "D:/OpenSource/boost142/include/boost-1_83") 
 set(Boost_LIBRARY_DIR "D:/OpenSource/boost142/lib")
 
@@ -17,6 +18,7 @@ if(Boost_FOUND)
   target_link_libraries(boost_dummy ${Boost_LIBRARIES})
   #target_link_libraries(boost_async ${Boost_LIBRARY_DIR})
 endif()
+]===]
 
 add_executable(async_winsock async_winsock.cpp)
 add_executable(sync_winsock sync_winsock.cpp)

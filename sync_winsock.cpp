@@ -35,7 +35,7 @@ void handleClientConnections(SOCKET serverSocket, std::vector<SOCKET>& clientSoc
 
 void sendDataToClients(const std::vector<SOCKET>& clientSockets, std::mutex& clientMutex) {
     char buffer[BUFFER_SIZE] = "AAAAAAAAAAAAAAAAAAAAAAAAAAAA";
-    int totalbytes = 0;
+    unsigned long long totalbytes = 0;
 
     while (true) {
         std::lock_guard<std::mutex> lock(clientMutex);

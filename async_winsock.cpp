@@ -17,7 +17,7 @@ bool b = true;
 bool print = false;
 fsec fs;
 
-int totalbytes = 0;
+unsigned long long totalbytes = 0;
 
 void CALLBACK CompletionRoutine(DWORD dwError, DWORD cbTransferred, LPWSAOVERLAPPED lpOverlapped, DWORD dwFlags)
 {

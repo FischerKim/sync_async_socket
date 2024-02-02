@@ -1,7 +1,7 @@
 @echo off
 
 set EXECUTABLE=dummy.exe
-set NUM_INSTANCES=100
+set NUM_INSTANCES=1000
 
 echo Launching %NUM_INSTANCES% instances of %EXECUTABLE%...
 

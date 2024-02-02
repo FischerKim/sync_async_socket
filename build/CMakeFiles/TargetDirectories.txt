@@ -1,5 +1,3 @@
-D:/source/sync_async socket/build/CMakeFiles/boost_async.dir
-D:/source/sync_async socket/build/CMakeFiles/boost_dummy.dir
 D:/source/sync_async socket/build/CMakeFiles/async_winsock.dir
 D:/source/sync_async socket/build/CMakeFiles/sync_winsock.dir
 D:/source/sync_async socket/build/CMakeFiles/dummy.dir

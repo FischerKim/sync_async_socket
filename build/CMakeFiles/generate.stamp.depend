@@ -89,9 +89,6 @@ C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCo
 C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake
 C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake
 C:/Program Files/CMake/share/cmake-3.28/Modules/CompilerId/VS-10.vcxproj.in
-C:/Program Files/CMake/share/cmake-3.28/Modules/FindBoost.cmake
-C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
-C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
 C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake
 C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-Determine-CXX.cmake
 C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
@@ -100,10 +97,6 @@ C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake
 C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
-D:/OpenSource/boost/lib/cmake/Boost-1.83.0/BoostConfig.cmake
-D:/OpenSource/boost/lib/cmake/Boost-1.83.0/BoostConfigVersion.cmake
-D:/OpenSource/boost/lib/cmake/boost_headers-1.83.0/boost_headers-config-version.cmake
-D:/OpenSource/boost/lib/cmake/boost_headers-1.83.0/boost_headers-config.cmake
 D:/source/sync_async socket/CMakeLists.txt
 D:/source/sync_async socket/build/CMakeFiles/3.28.1/CMakeCCompiler.cmake
 D:/source/sync_async socket/build/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake
